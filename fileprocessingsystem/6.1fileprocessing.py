@@ -83,7 +83,7 @@ def main():
     json_input = input("Enter the path to the input JSON file: ")
     json_output = input("Enter the path to the output JSON file: ")
     xml_input = input("Enter the path to the input XML file: ")
-    xml_output = input("Enter the path to the output XML file (for XML): ")
+    xml_output = input("Enter the path to the output XML file : ")
 
     # Call the process_xml function with an additional output_format argument
     output_format = 'dict'  # or 'custom', depending on your desired output format
